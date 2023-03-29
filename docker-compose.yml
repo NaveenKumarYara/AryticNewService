@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dashboardservice:
+    image: ${DOCKER_REGISTRY-}dashboardservice
+    build:
+      context: .
+      dockerfile: DashboardService/Dockerfile
