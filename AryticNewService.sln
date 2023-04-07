@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailService", "EmailService\EmailService.csproj", "{0580CBA2-2BD8-4561-98DC-0DC4321134F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "EmailService\EmailService.csproj", "{0580CBA2-2BD8-4561-98DC-0DC4321134F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardService", "DashboardService\DashboardService.csproj", "{EE6D5C84-5119-48BE-A362-198FC8376360}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardService", "DashboardService\DashboardService.csproj", "{EE6D5C84-5119-48BE-A362-198FC8376360}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobService", "JobService\JobService.csproj", "{7839B17F-35ED-4BEE-826F-A24F8B724226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobService", "JobService\JobService.csproj", "{7839B17F-35ED-4BEE-826F-A24F8B724226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyService", "ApplyService\ApplyService.csproj", "{D59DABA8-3E05-485D-A1A8-797E2B6F049A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{7839B17F-35ED-4BEE-826F-A24F8B724226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7839B17F-35ED-4BEE-826F-A24F8B724226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7839B17F-35ED-4BEE-826F-A24F8B724226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D59DABA8-3E05-485D-A1A8-797E2B6F049A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59DABA8-3E05-485D-A1A8-797E2B6F049A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59DABA8-3E05-485D-A1A8-797E2B6F049A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59DABA8-3E05-485D-A1A8-797E2B6F049A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
